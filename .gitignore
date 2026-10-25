@@ -1,0 +1,21 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mldl/
+.ipynb_checkpoints/
+
+# macOS and temporary Office files
+.DS_Store
+__MACOSX/
+._*
+~$*
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
